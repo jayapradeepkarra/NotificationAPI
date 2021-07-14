@@ -52,4 +52,4 @@ app.post('/signup', (req, res) => {
 
 const PORT = process.env.PORT || 5050;
 
-app.listen(PORT, console.log(`Server started on ${PORT}`));
+app.listen(PORT, console.log(`Server listening to ${PORT}`));
